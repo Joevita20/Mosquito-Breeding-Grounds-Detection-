@@ -1,0 +1,12 @@
+train:  data/yolo_format/train/images
+val:    data/yolo_format/val/images
+test:   data/yolo_format/test/images
+
+nc: 6
+names:
+  - tires
+  - water_tanks
+  - bottles
+  - buckets
+  - pools
+  - water_tubes

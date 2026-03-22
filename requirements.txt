@@ -1,0 +1,30 @@
+# Core computer vision and deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+Pillow>=9.0.0
+numpy>=1.24.0
+
+# YOLOv8
+ultralytics>=8.0.0
+
+# Data augmentation / visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+
+# Jupyter & utilities
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0
+pypdf>=4.0.0
+
+# GAN / model utilities
+timm>=0.9.0
+
+# Dataset handling
+pycocotools>=2.0.7
+
+# Detectron2 - install separately on Colab:
+# pip install 'git+https://github.com/facebookresearch/detectron2.git'
+# (Not included here as it requires matching torch/cuda versions)
